@@ -8,7 +8,7 @@ html, body {
     padding-top: 20px;
 }
 
-.bwss-table {
+.jbwss-table {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ html, body {
     box-sizing: inherit;
 }
 
-.bwss-table__row {
+.jbwss-table__row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ html, body {
     position: relative;
 }
 
-.bwss-table__row-detail {
+.jbwss-table__row-detail {
     text-align: center;
     display: flex;
     align-items: center;
@@ -45,28 +45,28 @@ span {
     line-height: 24px;
 }
 
-.win {
+.jbwss__win {
     background-color: #8cc63f;
     color: white;
     padding: 8px 13px;
     border-radius: 100%;
 }
 
-.draw {
+.jbwss__draw {
     background-color: rgb(180, 180, 180);
     color: white;
     padding: 8px 15px;
     border-radius: 100%;
 }
 
-.lose {
+.jbwss__lose {
     background-color: #a8443c;
     color: white;
     padding: 8px 16px;
     border-radius: 100%;
 }
 
-.team {
+.jbwss__team {
     font-size: .8rem;
     font-weight: bold;
     text-align: center;
@@ -76,11 +76,11 @@ span {
     width: 130px;
 }
 
-.live-results {
+.jbwss__live-results {
     color: #c5363b;
 }
 
-.datetime {
+.jbwss__datetime {
     color: #5c5c5c;
     font-size:0.68rem;
     overflow: none;
@@ -88,7 +88,7 @@ span {
     white-space: nowrap;
 }
 
-.matchinfo {
+.jbwss__matchinfo {
     font-size: 0.68rem;
     position: absolute;
     bottom: 6px;
@@ -99,16 +99,16 @@ strong {
     font-size: .8rem;
 }
 
-.vs-column {
+.jbwss__vs-column {
     margin-top: -30px;
 }
 
 @media screen and (min-width: 678px) {
-    .bwss-table__row {
+    .jbwss-table__row {
         gap: 36px;
     }
 
-    .team {
+    .jbwss__team {
         font-size: .8rem;
         width: 100%;
     }
@@ -117,18 +117,18 @@ strong {
         font-size: .8rem;
     }
     
-    .datetime {
+    .jbwss__datetime {
         font-size: .7rem;
     }
 
-    .matchinfo {
+    .jbwss__matchinfo {
         font-size: .6rem;
         position: absolute;
         bottom: 3px;
         left: 51%;
     }
 
-    .vs-column {
+    .jbwss__vs-column {
         margin-top: -24px;
     }
 }
